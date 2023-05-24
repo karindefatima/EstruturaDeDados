@@ -1,2 +1,3 @@
 # EstruturaDeDados
-Lista de Exercícios de ED
+Lista de Exercícios de Estrutura de Dados
+
