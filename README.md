@@ -1,2 +1,2 @@
 # EstruturaDeDados
-Lista de Exercícios de ES
+Lista de Exercícios de ED
