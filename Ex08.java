@@ -1,9 +1,6 @@
 import java.util.Scanner;
-
 public class Ex08 {
-
 	private static Scanner scan = new Scanner(System.in);
-	
 	public static void main(String[] args) {
 		System.out.print("Entre o seu peso:");
 		double peso = scan.nextDouble();
@@ -17,11 +14,7 @@ public class Ex08 {
 		    else {
 		    	double imc = (peso / (altura * altura));
 				System.out.printf("IMC: %2f\n", imc);
-		    
 		    }
-
 		    System.out.println("");
-
 	}
-
 }

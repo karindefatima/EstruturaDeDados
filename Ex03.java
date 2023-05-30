@@ -1,7 +1,3 @@
-/*Receba do teclado dois números inteiros, calcule e exiba os resultados das seguintes
- *  operações: adição, subtração, multiplicação, quociente da
- *  divisão e o resto da divisão */
-
 import java.util.Scanner;
 public class Ex03 {
 
@@ -29,5 +25,4 @@ public class Ex03 {
 		result = n1%n2;
 		System.out.printf("Resto: %d\n", result);
 	}
-
 }

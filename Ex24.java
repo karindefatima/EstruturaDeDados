@@ -1,23 +1,13 @@
-/*. Construa um programa que simule uma calculadora. Disponibilize um menu de opções e simule a opção desejada, exibindo novamente o menu,
-até que o usuário escolha sair. Menu de opções:
-1 - potenciação Dica: utilize a função da biblioteca matemática.
-2 - raiz quadrada Dica: utilize a função da biblioteca matemática.
-3 - fatorial Dica: crie e utilize uma função com a solução da questão anterior.
-0 - sair*/
-
 import java.util.Scanner;
-
 public class Ex24 {
 	private static Scanner scan = new Scanner(System.in);
-
 	public static void main(String[] args) {
 		int op;
 		do{
-			
-		System.out.print("TABUADA \n 1- Potência \n 2- Raiz Quadrada \n 3- Fatorial \n 4- Sair \n");
-		op = scan.nextInt();
+			System.out.print("TABUADA \n 1- Potência \n 2- Raiz Quadrada \n 3- Fatorial \n 4- Sair \n");
+			op = scan.nextInt();
 		
-		switch ( op ){
+			switch ( op ){
 			case 1 : 
 			    Potencia();
 			    break;
@@ -32,9 +22,8 @@ public class Ex24 {
 			default : 
 				System.out.println("ERROR \n"); 
 				break;
-		}  
+			}  
 		} while(op != 4);
-
 	}
 	
 	public static void Potencia(){
@@ -47,7 +36,6 @@ public class Ex24 {
 		double potencia = Math.pow(n1,n2);
 		
 		System.out.print("Potência:" +potencia);		
-		
 	}
 	
 	public static void Raiz(){
@@ -56,8 +44,7 @@ public class Ex24 {
 		
 		double raiz = Math.sqrt(n);
 		
-		System.out.print("Raiz:" +raiz);		
-		
+		System.out.print("\nRaiz:" +raiz);			
 	}
 	
 	public static void Fatorial() {
@@ -69,11 +56,7 @@ public class Ex24 {
 		while(n1 > 0){
 			fatorial *= n1;
 			n1--;
-			
 		}
-        
-        System.out.print("Fatorial:"+ fatorial);
-		
+        System.out.print("\nFatorial:"+ fatorial);
 	}
-
 }

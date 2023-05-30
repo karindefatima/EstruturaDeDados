@@ -1,9 +1,6 @@
 import java.util.Scanner;
-
 public class Ex13 {
-
 	private static Scanner scan = new Scanner(System.in);
-	
 	public static void main(String[] args) {
 		
 		System.out.print("Entre as quatro notas do aluno:\n");
@@ -11,7 +8,6 @@ public class Ex13 {
 		double nota2 = scan.nextDouble();
 		double nota3 = scan.nextDouble();
 		double nota4 = scan.nextDouble();
-		
 		
 		double media = ((nota1 + nota2 + nota3 + nota4)/4); 
 		 if(media >= 7) {
@@ -27,11 +23,7 @@ public class Ex13 {
 		    	else {
 		    		System.out.print("REPROVADO!");
 		    	}
-		    
 		    }
-
 		    System.out.println("");
-
 	}
-
 }

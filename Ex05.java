@@ -1,10 +1,7 @@
-//Calcular e exibir a média aritmética de três números reais
 import java.util.Scanner;
-
 public class Ex05 {
 
 	private static Scanner scan = new Scanner(System.in);
-	
 	public static void main(String[] args) {
 		System.out.print("Entre o primeiro número:");
 		double n1 = scan.nextDouble();
@@ -17,9 +14,5 @@ public class Ex05 {
 		
 		double result = (n1 + n2 + n3)/3;
 		System.out.printf("Média: %2f\n", result);
-		
-		
-
 	}
-
 }

@@ -1,6 +1,3 @@
-/*Inicialize variáveis adequadas para: sua idade, sua altura, primeira letra do seu nome, seu nome completo.
- * Depois exiba os dados na tela.
- */
 public class Ex01 {
 
 	public static void main(String[] args) {
